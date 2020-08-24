@@ -547,13 +547,21 @@ body {
   width: 570px;
 }
 
+.form {
+  display: flex;
+}
+
+.email-input {
+  display: block;
+}
+
 .form-field {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
   margin: 0;
   margin-right: 12px;
-  width: 348px;
+  width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   box-sizing: border-box;
@@ -571,12 +579,14 @@ body {
 }
 
 .button-footer {
+  display: flex;
   margin-right: 0;
   padding-left: 28px;
   padding-right: 28px;
 }
 
 .button-name {
+  display: block;
   margin-right: 10px;
 }
 
